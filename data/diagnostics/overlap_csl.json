@@ -1,0 +1,31 @@
+{
+  "dataset": "csl",
+  "n_dev": 1076,
+  "n_test": 1175,
+  "n_dev_exact_dup_with_test": 1074,
+  "frac_dev_exact_dup_with_test": 0.9981412639405205,
+  "n_test_exact_dup_with_dev": 1171,
+  "frac_test_exact_dup_with_dev": 0.9965957446808511,
+  "nn_dist_dev_to_test_buckets": {
+    "dist_<=0": 1074,
+    "dist_<=1": 1074,
+    "dist_<=2": 1074,
+    "dist_<=3": 1074,
+    "dist_<=5": 1076,
+    "dist_<=10": 1076
+  },
+  "nn_dist_test_to_dev_buckets": {
+    "dist_<=0": 1171,
+    "frac_<=0": 0.9965957446808511,
+    "dist_<=1": 1171,
+    "frac_<=1": 0.9965957446808511,
+    "dist_<=2": 1171,
+    "frac_<=2": 0.9965957446808511,
+    "dist_<=3": 1171,
+    "frac_<=3": 0.9965957446808511,
+    "dist_<=5": 1172,
+    "frac_<=5": 0.9974468085106383,
+    "dist_<=10": 1174,
+    "frac_<=10": 0.9991489361702127
+  }
+}

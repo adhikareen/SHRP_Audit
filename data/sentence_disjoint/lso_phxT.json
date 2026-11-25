@@ -1,0 +1,96 @@
+{
+  "dataset": "phxT",
+  "pool": "phxT_combined",
+  "bow_seeds": 20,
+  "n_dev": 519,
+  "n_test": 642,
+  "n_U": 639,
+  "exact_dup_frac": 0.014018691588785047,
+  "greedy_full": 20.380370979103077,
+  "paper_greedy": 19.93,
+  "lm_full_dev": 28.410424982390232,
+  "bow_full_dev": 26.602488847147217,
+  "per_split_seed": [
+    {
+      "split_seed": 0,
+      "n_U_seen": 320,
+      "n_U_unseen": 319,
+      "n_fit": 8,
+      "n_test_seen": 322,
+      "n_test_unseen": 320,
+      "greedy_full": 20.380370979103077,
+      "greedy_seen": 21.523809523809526,
+      "greedy_unseen": 19.268179712830015,
+      "devLM_full": 25.522423104015026,
+      "devLM_seen": 26.857142857142858,
+      "devLM_unseen": 24.224177860120427,
+      "BoW_full": 23.784926038976284,
+      "BoW_seen": 24.857142857142858,
+      "BoW_unseen": 22.742010189902732
+    },
+    {
+      "split_seed": 1,
+      "n_U_seen": 320,
+      "n_U_unseen": 319,
+      "n_fit": 5,
+      "n_test_seen": 322,
+      "n_test_unseen": 320,
+      "greedy_full": 20.380370979103077,
+      "greedy_seen": 20.422535211267604,
+      "greedy_unseen": 20.338186942226397,
+      "devLM_full": 25.334585583470297,
+      "devLM_seen": 25.258215962441316,
+      "devLM_unseen": 25.41099107562236,
+      "BoW_full": 31.016670579948343,
+      "BoW_seen": 31.408450704225352,
+      "BoW_unseen": 30.624706434945985
+    },
+    {
+      "split_seed": 2,
+      "n_U_seen": 320,
+      "n_U_unseen": 319,
+      "n_fit": 9,
+      "n_test_seen": 322,
+      "n_test_unseen": 320,
+      "greedy_full": 20.380370979103077,
+      "greedy_seen": 21.495766698024457,
+      "greedy_unseen": 19.268635724331926,
+      "devLM_full": 25.780699694764028,
+      "devLM_seen": 26.810912511759174,
+      "devLM_unseen": 24.753867791842474,
+      "BoW_full": 22.79877905611646,
+      "BoW_seen": 23.847601128880527,
+      "BoW_unseen": 21.753398968588844
+    }
+  ],
+  "significance_seed0": {
+    "devLM_seen": {
+      "delta": 5.333333333333334,
+      "ci_lo": 4.079616415619936,
+      "ci_hi": 6.67960567955716,
+      "p_onesided": 1.0,
+      "n": 322
+    },
+    "devLM_unseen": {
+      "delta": 4.955998147290414,
+      "ci_lo": 3.8016357403108523,
+      "ci_hi": 6.163876481085334,
+      "p_onesided": 1.0,
+      "n": 320
+    },
+    "BoW_seen": {
+      "delta": 3.3333333333333353,
+      "ci_lo": 2.1673226990196217,
+      "ci_hi": 4.735469383999755,
+      "p_onesided": 1.0,
+      "n": 322
+    },
+    "BoW_unseen": {
+      "delta": 3.4738304770727204,
+      "ci_lo": 2.3419748670704696,
+      "ci_hi": 4.613266227598984,
+      "p_onesided": 1.0,
+      "n": 320
+    }
+  }
+}

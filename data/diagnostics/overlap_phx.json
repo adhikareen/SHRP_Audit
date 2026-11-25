@@ -1,0 +1,31 @@
+{
+  "dataset": "phx",
+  "n_dev": 540,
+  "n_test": 629,
+  "n_dev_exact_dup_with_test": 0,
+  "frac_dev_exact_dup_with_test": 0.0,
+  "n_test_exact_dup_with_dev": 0,
+  "frac_test_exact_dup_with_dev": 0.0,
+  "nn_dist_dev_to_test_buckets": {
+    "dist_<=0": 0,
+    "dist_<=1": 7,
+    "dist_<=2": 36,
+    "dist_<=3": 78,
+    "dist_<=5": 168,
+    "dist_<=10": 477
+  },
+  "nn_dist_test_to_dev_buckets": {
+    "dist_<=0": 0,
+    "frac_<=0": 0.0,
+    "dist_<=1": 5,
+    "frac_<=1": 0.00794912559618442,
+    "dist_<=2": 34,
+    "frac_<=2": 0.05405405405405406,
+    "dist_<=3": 72,
+    "frac_<=3": 0.11446740858505565,
+    "dist_<=5": 198,
+    "frac_<=5": 0.314785373608903,
+    "dist_<=10": 558,
+    "frac_<=10": 0.8871224165341812
+  }
+}

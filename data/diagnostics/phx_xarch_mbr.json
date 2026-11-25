@@ -1,0 +1,35 @@
+{
+  "dataset": "phx",
+  "source": "rich",
+  "pool_names": [
+    "sg0",
+    "sg1",
+    "sg2",
+    "sg3",
+    "cn"
+  ],
+  "K": 50,
+  "label": "rich ['sg0', 'sg1', 'sg2', 'sg3', 'cn'] (K/arch=10, n=629)",
+  "n_utt": 629,
+  "n_boot": 1000,
+  "seed": 0,
+  "greedy_best_wer": 19.605729246881257,
+  "greedy_best_backbone": "sg2",
+  "utilities": {
+    "editdist": {
+      "wer": 18.250423533035576,
+      "vs_greedy_best": {
+        "base_wer": 19.605729246881257,
+        "new_wer": 18.250423533035576,
+        "delta": -1.3553057138456808,
+        "ci95": [
+          -1.99213750114949,
+          -0.7627248885799639
+        ],
+        "p_one_sided_new_better": 0.0
+      },
+      "minutes": 0.13904099067052206
+    }
+  },
+  "wallclock_min": 0.14298479159673055
+}

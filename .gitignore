@@ -1,0 +1,11 @@
+# references re-attached from the user's dataset copies; never commit
+work/
+*.stm
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Figure 1 output
+figures_src/out/

@@ -1,0 +1,21 @@
+Files in this directory (beam candidates, per-utterance picks, diagnostics,
+sentence-disjoint results)
+
+Copyright (c) 2026 Nirmal Adhikari, Wookey Lee
+
+Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License (CC BY-NC-SA 4.0).
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+These files are model outputs and statistics. They contain no dataset
+annotations. They were produced with models trained on the datasets below, and
+use of those datasets is governed by their own licences. Obtain the datasets
+from the official sources.
+
+  CSL-Daily: research-only agreement with USTC.
+    https://ustc-slr.github.io/datasets/2021_csl_daily/
+  RWTH-PHOENIX-Weather 2014: non-commercial.
+    https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/
+  RWTH-PHOENIX-Weather 2014 T: non-commercial.
+    https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/

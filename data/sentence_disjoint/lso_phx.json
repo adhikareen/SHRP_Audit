@@ -1,0 +1,96 @@
+{
+  "dataset": "phx",
+  "pool": "phx_combined",
+  "bow_seeds": 20,
+  "n_dev": 540,
+  "n_test": 629,
+  "n_U": 629,
+  "exact_dup_frac": 0.0,
+  "greedy_full": 20.083166486985984,
+  "paper_greedy": 19.62,
+  "lm_full_dev": 25.56599414754351,
+  "bow_full_dev": 24.518712459571848,
+  "per_split_seed": [
+    {
+      "split_seed": 0,
+      "n_U_seen": 315,
+      "n_U_unseen": 314,
+      "n_fit": 0,
+      "n_test_seen": 315,
+      "n_test_unseen": 314,
+      "greedy_full": 20.083166486985984,
+      "greedy_seen": 20.012468827930174,
+      "greedy_unseen": 20.15220700152207,
+      "devLM_full": 20.083166486985984,
+      "devLM_seen": 20.012468827930174,
+      "devLM_unseen": 20.15220700152207,
+      "BoW_full": 20.083166486985984,
+      "BoW_seen": 20.012468827930174,
+      "BoW_unseen": 20.15220700152207
+    },
+    {
+      "split_seed": 1,
+      "n_U_seen": 315,
+      "n_U_unseen": 314,
+      "n_fit": 0,
+      "n_test_seen": 315,
+      "n_test_unseen": 314,
+      "greedy_full": 20.083166486985984,
+      "greedy_seen": 20.238824249846907,
+      "greedy_unseen": 19.925627517818405,
+      "devLM_full": 20.083166486985984,
+      "devLM_seen": 20.238824249846907,
+      "devLM_unseen": 19.925627517818405,
+      "BoW_full": 20.083166486985984,
+      "BoW_seen": 20.238824249846907,
+      "BoW_unseen": 19.925627517818405
+    },
+    {
+      "split_seed": 2,
+      "n_U_seen": 315,
+      "n_U_unseen": 314,
+      "n_fit": 0,
+      "n_test_seen": 315,
+      "n_test_unseen": 314,
+      "greedy_full": 20.083166486985984,
+      "greedy_seen": 19.76961394769614,
+      "greedy_unseen": 20.390124961901858,
+      "devLM_full": 20.083166486985984,
+      "devLM_seen": 19.76961394769614,
+      "devLM_unseen": 20.390124961901858,
+      "BoW_full": 20.083166486985984,
+      "BoW_seen": 19.76961394769614,
+      "BoW_unseen": 20.390124961901858
+    }
+  ],
+  "significance_seed0": {
+    "devLM_seen": {
+      "delta": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "p_onesided": 1.0,
+      "n": 315
+    },
+    "devLM_unseen": {
+      "delta": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "p_onesided": 1.0,
+      "n": 314
+    },
+    "BoW_seen": {
+      "delta": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "p_onesided": 1.0,
+      "n": 315
+    },
+    "BoW_unseen": {
+      "delta": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "p_onesided": 1.0,
+      "n": 314
+    }
+  }
+}
