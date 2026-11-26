@@ -75,13 +75,13 @@ ax_leg.axis("off")
 SYSTEMS = [
     ("Dev-LM\nrescore",                 14.20, "devcond"),
     ("BoW frozen-emb\n(20-seed ens.)",  16.92, "devcond"),
-    ("SCOPE\n(arXiv '24)",              23.10, "pub"),
-    ("Online CSLR\n(EMNLP '24)",        24.40, "pub"),
+    ("SCOPE\n(AAAI '25)",               23.10, "pub"),
+    ("Online CSLR, offline\n(EMNLP '24)", 24.40, "pub"),
     ("TwoStream-SLR\n(NeurIPS '22)",    25.30, "pub"),
-    ("SlowFastSign\n(ICASSP '24)",      25.50, "pub"),
+    ("SlowFastSign\n(ICASSP '24)",      24.90, "pub"),
     ("Cross-arch MBR\n(control)",       25.90, "nodev"),
     ("SignGraph\n(CVPR '24)",           26.40, "pub"),
-    ("CorrNet+\n(arXiv '24)",           28.60, "pub"),
+    ("CorrNet+\n(arXiv '24)",           28.20, "pub"),
     ("CorrNet\n(CVPR '23)",             30.10, "pub"),
 ]
 # Sort ascending so best WER is at the top of the chart
