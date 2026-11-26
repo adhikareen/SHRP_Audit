@@ -64,29 +64,18 @@ runs of single-letter tokens are joined with `+` and adjacent repeats of a gloss
 
 Commands are run from the repository root after `attach_refs.py`.
 
-| Paper item | Command | Status |
-|---|---|---|
-| Table 1, greedy-best and cross-architecture MBR | `python code/paired_bootstrap.py` (CSL-Daily, PHX-2014T); PHX-2014: see "PHX cross-arch MBR" | included |
-| Table 1, dev-conditioned BoW and dev-LM rows | | not included (*) |
-| Table 1, train-conditioned BoW, train-LM and ROVER rows | | not included (*) |
-| Table 2, test exact-duplicate rate | `python code/nn_edit_distance.py --dataset {csl,phx,phxT}` | included |
-| Table 2, mean NN edit distance | `data/diagnostics/nn_dist_*.npy` | arrays included |
-| Table 2, 4-gram coverage | `python code/ngram_coverage.py` with the dataset arguments (see "N-gram coverage") | included |
-| Table 2, sentence-ID overlap | | not included (*) |
-| Table 3 | `python code/nn_edit_distance.py --dataset {csl,phx,phxT}` | included |
-| Table 4 | | not included (*) |
-| Table 5 and the PHX-2014 / PHX-2014T paragraphs of the same section | `python code/lso_run.py --dataset {csl,phx,phxT}` | included |
-| Table 6, MBR rows | `python code/paired_bootstrap.py` (CSL-Daily, PHX-2014T); PHX-2014: see "PHX cross-arch MBR" | included |
-| Table 6, BoW rows | | not included (*) |
-| Table 7 | rows repeat Table 1 | same-architecture MBR row not included |
-| Table 8, Table 10 | | no code (text tables) |
-| Table 9 | | not included (*) |
-| Table 11 | `python code/ngram_coverage.py` with the dataset arguments (see "N-gram coverage") | included |
-| Figure 1 | `python figures_src/make_tripwire_figure.py` | included |
-| Figure 2 | | not included (*) |
-| Discussion, neural-utility MBR | see "Neural-utility MBR" | included |
-
-(*) Scripts for these items will be added to this repository.
+| Paper item | Command |
+|---|---|
+| Table 1, greedy-best and cross-architecture MBR | `python code/paired_bootstrap.py` (CSL-Daily, PHX-2014T); PHX-2014: see "PHX cross-arch MBR" |
+| Table 2, test exact-duplicate rate | `python code/nn_edit_distance.py --dataset {csl,phx,phxT}` |
+| Table 2, mean NN edit distance | `data/diagnostics/nn_dist_*.npy` |
+| Table 2, 4-gram coverage | `python code/ngram_coverage.py` with the dataset arguments (see "N-gram coverage") |
+| Table 3 | `python code/nn_edit_distance.py --dataset {csl,phx,phxT}` |
+| Table 5 and the PHX-2014 / PHX-2014T paragraphs of the same section | `python code/lso_run.py --dataset {csl,phx,phxT}` |
+| Table 6, MBR rows | `python code/paired_bootstrap.py` (CSL-Daily, PHX-2014T); PHX-2014: see "PHX cross-arch MBR" |
+| Table 11 | `python code/ngram_coverage.py` with the dataset arguments (see "N-gram coverage") |
+| Figure 1 | `python figures_src/make_tripwire_figure.py` |
+| Discussion, neural-utility MBR | see "Neural-utility MBR" |
 
 ## Paired bootstrap CI (CSL + PHX-T MBR rows)
 
