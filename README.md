@@ -94,8 +94,9 @@ Commands are run from the repository root after `attach_refs.py`.
 python code/paired_bootstrap.py
 ```
 
-Reproduces the paper's Table 6 MBR rows: CSL delta = +0.23, CI [-0.33, +0.81];
-PHX-T delta = -1.36, CI [-2.05, -0.67]. It reads the released picks in `data/picks/`.
+Reproduces the paper's Table 6 MBR rows: CSL delta = +0.23, CI [-0.33, +0.81], p = 0.819;
+PHX-T delta = -1.36, CI [-2.05, -0.67], p < 0.001. The p-value is one-sided for "MBR is better
+than greedy" (the share of resamples with delta >= 0). It reads the released picks in `data/picks/`.
 
 ## Sentence overlap and NN edit-distance buckets
 

@@ -97,7 +97,7 @@ def evaluate(name, stm_path, base_ctm, new_ctm):
     print(f"  new  WER = {bs['new_wer']:.2f}")
     print(f"  delta    = {bs['delta']:+.3f}   "
           f"95% CI [{bs['ci95_lo']:+.2f}, {bs['ci95_hi']:+.2f}]   "
-          f"p(new<base) = {bs['p_new_better']:.3f}")
+          f"p (one-sided, new better) = {bs['p_new_better']:.3f}")
     return bs
 
 
